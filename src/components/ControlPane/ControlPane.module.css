@@ -12,6 +12,14 @@
   margin-bottom: 32px;
 }
 
+@media screen and (max-width: 699px) {
+  .controlPane {
+    max-width: 90vw;
+    margin: 0 5vw;
+    /* min-width: 90%; */
+  }
+}
+
 .title {
   margin: 0;
   /* Optical centering */
